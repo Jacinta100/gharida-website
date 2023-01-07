@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+ /*Landing page*/
+
+:root{
+  --max-content-width:1280px;
+  --primary-color:  #FFF;
+  --secondary-color: #000;
+}
+.navigation{
+  display: flex;
+  background-color: aqua;
+  /* text-align: right; */
+  
+
+}
+.nav_list{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 16px;
+  padding-right: 92px;
+  padding-bottom: 5px; 
+ 
+
+  
+}
+.nav_list-item{
+  display: flex;
+  margin-right: 60px;
+ 
+}
+
+
+.Landing_section{
+  width: 100%;
+  height: 740px;
+  background-image: url(../assert/0_A-min.jpeg);
+  background-size: 100%;
+  object-fit: contain;
+  
+}
+   
+.inner-container{
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 150px; 
+  
+}
+.profile{
+  color: #FFF;
+  font-size: 20px;
+} 
+
+
+/* Anout Me*/ 
